@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    td {
+      font-family: Arial, sans-serif; /* Ganti dengan font yang diinginkan */
+      font-size: 14px; /* Ganti dengan ukuran font yang diinginkan */
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form Input Siswa</title>
+</head>
+<body>
+  <table border="1" width="50%">
+    <tr bgcolor="purple">
+      <td colspan="3" style="text-align: center;"><b>Form Input Siswa</b></td>
+    </tr>
+    <tr>
+      <td bgcolor="darkorange" style="text-align: center;">Nama</td>
+      <td style="text-align: center;">:</td>
+      <td><input type="text" name="nama" /></td>
+    </tr>
+    <tr>
+      <td bgcolor="blue" style="text-align: center;">Tempat Lahir</td>
+      <td style="text-align: center;">:</td>
+      <td><input type="text" name="tempatlahir" /></td>
+    </tr>
+    <tr>
+      <td bgcolor="orange"style="text-align: center;">jenis kelamin</td>>
+      <td style="text-align: center;">:</td>
+      <td>
+        <input type="radio" name="jenis_kelamin" value="Laki-laki"> Laki-laki
+        <input type="radio" name="jenis_kelamin" value="Perempuan"> Perempuan
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align: center;">Kelas</td>
+      <td style="text-align: center;">:</td>
+      <td>
+        <select name="kelas">
+          <option value="X PPLG 1">X PPLG 1</option>
+          <option value="X PPLG 2">X PPLG 2</option>
+          <option value="XI PPLG 1">XI PPLG 1</option>
+          <option value="XI PPLG 2">XI PPLG 2</option>
+          <option value="XII PPLG 1">XII PPLG 1</option>
+          <option value="XII PPLG 2">XII PPLG 2</option>
+        </select>
+      </td>
+    </tr>
+    </tr>
+    <tr>
+      <td style="text-align: center;">Alamat</td>
+      <td style="text-align: center;">:</td>
+      <td><input type="text" name="alamat" /></td>
+    </tr>
+    <tr>
+      <td colspan="3" style="text-align: center;">
+        <input type="submit" value="Submit" />
+      </td>
+    </tr>
+    </tr>
+  </table>
+</body>
+</html>
